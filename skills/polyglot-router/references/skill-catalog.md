@@ -20,6 +20,7 @@ Use this catalog when changing names, prompts, or routing behavior.
 ## Shared References
 
 - `session-protocol.md`: required before running a real study session.
+- `operational-workflow.md`: required before running a complete router-led learning loop.
 - `feedback-protocol.md`: required before correcting learner output.
 - `exercise-protocols.md`: required before generating exercises.
 - `rubrics.md`: required before scoring learner output.

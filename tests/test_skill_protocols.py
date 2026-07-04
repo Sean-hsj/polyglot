@@ -16,6 +16,7 @@ class SkillProtocolTests(unittest.TestCase):
     def test_shared_protocol_references_exist(self):
         for filename in [
             "session-protocol.md",
+            "operational-workflow.md",
             "exercise-protocols.md",
             "feedback-protocol.md",
             "rubrics.md",
@@ -28,6 +29,7 @@ class SkillProtocolTests(unittest.TestCase):
         text = self.read_skill("polyglot-router")
         for filename in [
             "system-architecture.md",
+            "operational-workflow.md",
             "data-contract.md",
             "session-protocol.md",
             "exercise-protocols.md",

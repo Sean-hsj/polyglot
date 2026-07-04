@@ -51,6 +51,7 @@ python3 -m unittest discover -s tests -v
 The learning behavior is specified through shared references under `skills/polyglot-router/references/`:
 
 - `session-protocol.md`
+- `operational-workflow.md`
 - `exercise-protocols.md`
 - `feedback-protocol.md`
 - `rubrics.md`
