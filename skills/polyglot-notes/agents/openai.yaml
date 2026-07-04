@@ -1,0 +1,6 @@
+interface:
+  display_name: "Polyglot Notes"
+  short_description: "Organize durable language notes."
+  default_prompt: "Use $polyglot-notes to organize my language learning notes into reusable study material."
+policy:
+  allow_implicit_invocation: true

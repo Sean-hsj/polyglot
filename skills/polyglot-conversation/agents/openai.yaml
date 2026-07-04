@@ -1,0 +1,6 @@
+interface:
+  display_name: "Polyglot Conversation"
+  short_description: "Run role-play and fluency practice."
+  default_prompt: "Use $polyglot-conversation to run a target-language role-play session."
+policy:
+  allow_implicit_invocation: true

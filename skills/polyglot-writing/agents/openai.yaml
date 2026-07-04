@@ -1,0 +1,6 @@
+interface:
+  display_name: "Polyglot Writing"
+  short_description: "Correct writing and extract patterns."
+  default_prompt: "Use $polyglot-writing to correct my writing and identify reusable language patterns."
+policy:
+  allow_implicit_invocation: true

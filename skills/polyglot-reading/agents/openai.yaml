@@ -1,0 +1,6 @@
+interface:
+  display_name: "Polyglot Reading"
+  short_description: "Learn through comprehensible input."
+  default_prompt: "Use $polyglot-reading to turn a text into level-appropriate language practice."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Polyglot Vocab"
+  short_description: "Review and grow vocabulary with SRS."
+  default_prompt: "Use $polyglot-vocab to review due words and add useful new vocabulary."
+policy:
+  allow_implicit_invocation: true

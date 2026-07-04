@@ -1,0 +1,21 @@
+{
+  "name": "polyglot-learning-os",
+  "version": "0.1.0",
+  "description": "An original router-led skill set for goal-driven multilingual study.",
+  "author": {
+    "name": "ShaoJie"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Polyglot Learning OS",
+    "shortDescription": "Goal-driven AI language learning skills.",
+    "longDescription": "Polyglot Learning OS coordinates level checks, roadmaps, grammar, vocabulary review, reading input, conversation, writing, study notes, tests, progress analysis, and durable learning memory through one central router.",
+    "developerName": "ShaoJie",
+    "category": "Education",
+    "capabilities": [
+      "skills",
+      "local-data"
+    ],
+    "defaultPrompt": "Use $polyglot-router to help me reach my target language level by my deadline."
+  }
+}

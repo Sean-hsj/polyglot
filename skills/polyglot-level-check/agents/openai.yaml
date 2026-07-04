@@ -1,0 +1,6 @@
+interface:
+  display_name: "Polyglot Level Check"
+  short_description: "Estimate level from language evidence."
+  default_prompt: "Use $polyglot-level-check to estimate my current level in a target language."
+policy:
+  allow_implicit_invocation: true

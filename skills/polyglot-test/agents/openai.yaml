@@ -1,0 +1,6 @@
+interface:
+  display_name: "Polyglot Test"
+  short_description: "Run level checks and mock tests."
+  default_prompt: "Use $polyglot-test to test my language level or exam readiness."
+policy:
+  allow_implicit_invocation: true

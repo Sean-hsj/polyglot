@@ -1,0 +1,6 @@
+interface:
+  display_name: "Polyglot Progress"
+  short_description: "Analyze progress and repair the plan."
+  default_prompt: "Use $polyglot-progress to tell me whether my language plan is on track."
+policy:
+  allow_implicit_invocation: true

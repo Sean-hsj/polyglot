@@ -1,0 +1,6 @@
+interface:
+  display_name: "Polyglot Roadmap"
+  short_description: "Plan target-level progress by deadline."
+  default_prompt: "Use $polyglot-roadmap to build a language study plan for my target level and deadline."
+policy:
+  allow_implicit_invocation: true

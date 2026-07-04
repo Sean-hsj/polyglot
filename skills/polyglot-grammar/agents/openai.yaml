@@ -1,0 +1,6 @@
+interface:
+  display_name: "Polyglot Grammar"
+  short_description: "Teach and drill grammar patterns."
+  default_prompt: "Use $polyglot-grammar to explain and drill a grammar pattern in my target language."
+policy:
+  allow_implicit_invocation: true

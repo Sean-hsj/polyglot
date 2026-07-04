@@ -1,0 +1,6 @@
+interface:
+  display_name: "Polyglot Memory"
+  short_description: "Persist sessions, SRS, and notes."
+  default_prompt: "Use $polyglot-memory to persist a structured language learning session result."
+policy:
+  allow_implicit_invocation: true
