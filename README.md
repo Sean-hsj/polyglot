@@ -7,7 +7,7 @@
 [![Tests](https://img.shields.io/badge/tests-16%20passing-2d2a26)](tests)
 [![Language](https://img.shields.io/badge/readme-%E4%B8%AD%E6%96%87-b08a2e)](README.zh-CN.md)
 
-![Polyglot Learning OS hero](docs/assets/polyglot-hero.jpg)
+![Polyglot Learning OS hero](docs/assets/polyglot-hero.svg)
 
 Polyglot Learning OS turns language study into an evidence-driven loop: assess the learner, plan against a deadline, practice with focused specialists, store durable memory, and adapt the next session from real progress.
 

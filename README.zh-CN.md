@@ -7,7 +7,7 @@
 [![Tests](https://img.shields.io/badge/tests-16%20passing-2d2a26)](tests)
 [![README](https://img.shields.io/badge/readme-English-b08a2e)](README.md)
 
-![Polyglot Learning OS hero](docs/assets/polyglot-hero.jpg)
+![Polyglot Learning OS hero](docs/assets/polyglot-hero.svg)
 
 Polyglot Learning OS 把语言学习组织成一条可持续的证据闭环：先评估当前水平，再根据目标和 deadline 做计划，然后由不同 specialist 进行练习、反馈、记笔记、保存学习记忆，并用真实进度调整下一次学习。
 
