@@ -60,6 +60,14 @@ class SkillProtocolTests(unittest.TestCase):
             self.assertIn("session", payload)
             self.assertIn("next_focus", payload)
 
+    def test_specialist_scripts_are_documented(self):
+        notes = self.read_skill("polyglot-notes")
+        roadmap = self.read_skill("polyglot-roadmap")
+        self.assertIn("scripts/note_writer.py", notes)
+        self.assertIn("note_updates[]", notes)
+        self.assertIn("scripts/roadmap_calculator.py", roadmap)
+        self.assertIn("feasibility", roadmap)
+
 
 if __name__ == "__main__":
     unittest.main()

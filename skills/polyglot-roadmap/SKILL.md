@@ -11,6 +11,14 @@ Convert a language goal into a weekly path with measurable checkpoints. The plan
 
 Before planning, inspect current state with `../polyglot-router/scripts/learning_store.py read` or use the router-provided computed state.
 
+Use `scripts/roadmap_calculator.py` before giving a deadline-based plan:
+
+```bash
+python3 scripts/roadmap_calculator.py calculate < roadmap-input.json
+```
+
+The script returns feasibility, required hours, available hours, weekly allocation, phases, checkpoint tests, and the next seven days.
+
 ## Inputs
 
 - Target language and native language.

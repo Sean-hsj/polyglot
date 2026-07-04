@@ -11,6 +11,14 @@ Turn learning events into concise, retrievable notes. Notes should help future s
 
 When note paths are created or changed, stage `note_updates[]` for `polyglot-memory`. Store paths and tags in memory, not full note bodies. Use `../polyglot-router/references/exercise-protocols.md` for note type and review prompt requirements.
 
+Use `scripts/note_writer.py` for deterministic Markdown output:
+
+```bash
+python3 scripts/note_writer.py write < note-payload.json
+```
+
+The script prints a `note_updates[]`-compatible object. Include that object in the next `polyglot-memory` record payload.
+
 ## Note Types
 
 - `language-index`: active goals, level, plan, links.

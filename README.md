@@ -56,3 +56,8 @@ The learning behavior is specified through shared references under `skills/polyg
 - `rubrics.md`
 - `data-contract.md`
 - `payload-examples.md`
+
+Additional deterministic helpers:
+
+- `skills/polyglot-notes/scripts/note_writer.py`
+- `skills/polyglot-roadmap/scripts/roadmap_calculator.py`
