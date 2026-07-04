@@ -16,3 +16,10 @@ Use this catalog when changing names, prompts, or routing behavior.
 | `polyglot-test` | Polyglot Test | Checkpoints, weekly tests, placement, mock exams. |
 | `polyglot-progress` | Polyglot Progress | Status, trend analysis, plan repair. |
 | `polyglot-memory` | Polyglot Memory | Persist validated profile, session, SRS, test, and note updates. |
+
+## Shared References
+
+- `session-protocol.md`: required before running a real study session.
+- `feedback-protocol.md`: required before correcting learner output.
+- `data-contract.md`: required before writing or interpreting persisted data.
+- `payload-examples.md`: use when constructing a `polyglot-memory` record payload.

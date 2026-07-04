@@ -32,6 +32,21 @@ Build a router-led language learning system that helps a learner reach a target 
 8. Update notes and next focus.
 9. Re-test periodically.
 
+## Durable Store Interface
+
+All persistent state crosses one seam: `skills/polyglot-router/scripts/learning_store.py`.
+
+Supported commands:
+
+- `init`: create a profile and empty store.
+- `validate`: verify all store files.
+- `read`: return store files plus computed fields.
+- `due`: list due review items.
+- `progress`: summarize current progress and weak areas.
+- `record`: validate and apply one structured mutation with a pre-record backup.
+
+Specialist skills should produce session evidence. They should not write JSON directly.
+
 ## Design Principles
 
 - One obvious entry point; many focused specialists.

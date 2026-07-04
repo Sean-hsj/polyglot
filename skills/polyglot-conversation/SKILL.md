@@ -9,6 +9,8 @@ description: Run target-language conversation and role-play practice. Use for sp
 
 Create a safe but realistic conversation loop: prompt, answer, correction, retry, expansion. Typed conversation is acceptable; mark pronunciation or speech work separately when audio tools are unavailable.
 
+Use `../polyglot-router/references/session-protocol.md` for session flow. Use `../polyglot-router/references/feedback-protocol.md` to decide when to correct, retry, or keep fluency moving.
+
 ## Workflow
 
 1. Pick a scenario tied to the learner's goal.
@@ -16,6 +18,13 @@ Create a safe but realistic conversation loop: prompt, answer, correction, retry
 3. Ask one conversational turn at a time.
 4. Correct only the most useful errors unless the session is accuracy-focused.
 5. Make the learner retry important sentences.
+
+## Turn Policy
+
+- Fluency mode: correct target-pattern and meaning-changing errors only.
+- Accuracy mode: correct more aggressively and record weak patterns.
+- Exam mode: score task success, range, accuracy, and repair ability.
+- Survival mode: prioritize communicative success and repair phrases.
 
 ## Modes
 

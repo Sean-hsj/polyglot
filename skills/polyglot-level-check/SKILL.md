@@ -9,6 +9,8 @@ description: Diagnose the learner's current level for a target language. Use for
 
 Estimate usable level from evidence, not confidence. Test recognition, production, comprehension, grammar control, vocabulary range, and task completion.
 
+Use `../polyglot-router/references/feedback-protocol.md` for scoring and `../polyglot-router/references/payload-examples.md` when saving assessment evidence.
+
 ## Workflow
 
 1. Identify target language, native language, script familiarity, and assessment target.

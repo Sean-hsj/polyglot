@@ -9,6 +9,8 @@ description: Build, review, and maintain vocabulary with spaced repetition. Use 
 
 Maintain vocabulary as a durable active-recall system. Prioritize useful words, collocations, phrases, and reusable chunks over isolated translation lists.
 
+Before running a review, inspect due items through `../polyglot-router/scripts/learning_store.py due`. Use `../polyglot-router/references/feedback-protocol.md` for SRS quality scoring.
+
 ## Workflow
 
 1. Load due items through the router store.
@@ -16,6 +18,15 @@ Maintain vocabulary as a durable active-recall system. Prioritize useful words, 
 3. Introduce new vocabulary in context.
 4. Test both directions when useful: target -> native and native -> target.
 5. Store each item with example, category, level, source, and review quality.
+
+## Review Order
+
+1. Due items with prior failed recall.
+2. Due high-priority phrases and collocations.
+3. Due normal vocabulary.
+4. New items only if review load is manageable.
+
+Cap new items when the learner has many due reviews.
 
 ## Item Types
 

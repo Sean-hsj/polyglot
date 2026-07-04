@@ -39,3 +39,11 @@ Default data location:
 3. `~/.codex/polyglot-learning-os`
 
 The store contains profile, session, SRS, assessment, and notes-index JSON files.
+
+## Engineering Status
+
+The durable store validates input before mutation, creates pre-record backups, computes due reviews and progress summaries, and is covered by tests:
+
+```bash
+python3 -m unittest discover -s tests -v
+```

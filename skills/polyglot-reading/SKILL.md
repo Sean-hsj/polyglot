@@ -9,6 +9,8 @@ description: Curate and teach through comprehensible input. Use for reading prac
 
 Use interesting input to expand vocabulary, grammar intuition, and cultural context without drowning the learner in unknown material.
 
+Use `../polyglot-router/references/session-protocol.md` for reading sessions and `../polyglot-router/references/feedback-protocol.md` for comprehension feedback.
+
 ## Workflow
 
 1. Choose or adapt text at `current level + 1`.
@@ -16,6 +18,13 @@ Use interesting input to expand vocabulary, grammar intuition, and cultural cont
 3. Ask comprehension before translation.
 4. Extract high-value vocabulary and grammar chunks.
 5. Summarize the text and produce review items or notes.
+
+## Extraction Rules
+
+- Add only high-utility unknown words, repeated words, collocations, or chunks.
+- Mark source text and level for each item.
+- Convert recurring grammar observations into grammar notes or weak patterns.
+- Preserve source context without dumping long copyrighted text.
 
 ## Input Policy
 

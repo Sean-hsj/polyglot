@@ -15,10 +15,11 @@ The router owns sequencing. Specialists own depth.
 
 1. Resolve the learning store with `scripts/learning_store.py where`.
 2. If the store is missing, initialize it with `scripts/learning_store.py init`.
-3. Read the learner state with `scripts/learning_store.py read`.
-4. Decide whether the next useful step is assessment, plan generation, review, new instruction, practice, test, note organization, or progress analysis.
+3. Validate the store with `scripts/learning_store.py validate`; if invalid, stop and report the exact error.
+4. Read the learner state with `scripts/learning_store.py read`.
+5. Decide whether the next useful step is assessment, plan generation, review, new instruction, practice, test, note organization, or progress analysis.
 
-Read `references/system-architecture.md` before changing the skill graph. Read `references/data-contract.md` before writing or interpreting persisted data.
+Read `references/system-architecture.md` before changing the skill graph. Read `references/data-contract.md` before writing or interpreting persisted data. Read `references/session-protocol.md` before running a study session. Read `references/feedback-protocol.md` before correcting learner output.
 
 ## Routing Policy
 
@@ -44,6 +45,7 @@ For each study session:
 4. Give immediate feedback with the correct answer, the reason, and a compact next action.
 5. Capture structured session data: practiced skills, accuracy, new vocabulary, errors, notes, and next focus.
 6. Persist only meaningful progress through `polyglot-memory`.
+7. Run `scripts/learning_store.py progress` when the learner asks for status or after a milestone session.
 
 ## Learning Standard
 

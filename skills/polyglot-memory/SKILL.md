@@ -25,6 +25,15 @@ python3 ../polyglot-router/scripts/learning_store.py record < payload.json
 
 4. Re-read the store and confirm the mutation.
 
+Useful read commands:
+
+```bash
+python3 ../polyglot-router/scripts/learning_store.py validate
+python3 ../polyglot-router/scripts/learning_store.py read
+python3 ../polyglot-router/scripts/learning_store.py due
+python3 ../polyglot-router/scripts/learning_store.py progress
+```
+
 ## Rules
 
 - Do not hand-edit JSON files.
@@ -32,3 +41,4 @@ python3 ../polyglot-router/scripts/learning_store.py record < payload.json
 - Collapse duplicate errors into one pattern with count.
 - Store source and context for vocabulary and mistake items.
 - Failed writes must be reported; never pretend progress was saved.
+- `record` creates a backup before mutation; keep the backup path in any debugging report.

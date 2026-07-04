@@ -9,6 +9,8 @@ description: Build or revise a time-bounded language learning plan from current 
 
 Convert a language goal into a weekly path with measurable checkpoints. The plan must be realistic about hours, skill balance, review load, and the learner's target use case.
 
+Before planning, inspect current state with `../polyglot-router/scripts/learning_store.py read` or use the router-provided computed state.
+
 ## Inputs
 
 - Target language and native language.

@@ -9,6 +9,8 @@ description: Create and grade level checks, weekly tests, mock exams, placement 
 
 Measure progress with tasks that reflect the learner's target outcome. Testing is for calibration and plan repair, not punishment.
 
+Use `../polyglot-router/references/feedback-protocol.md` for scoring and `../polyglot-router/references/payload-examples.md` when saving an assessment.
+
 ## Test Types
 
 - `quick_check`: 5-10 minutes, one skill or weak pattern.
@@ -24,6 +26,10 @@ Measure progress with tasks that reflect the learner's target outcome. Testing i
 3. Score with a rubric: task success, accuracy, range, fluency, comprehension.
 4. Identify pass/fail thresholds and weak subskills.
 5. Recommend plan changes.
+
+## Evidence Standard
+
+A level claim needs at least three observations across comprehension and production. If evidence is thin, mark the result as low-confidence and route to `polyglot-roadmap` or `polyglot-progress` for plan repair.
 
 ## Rules
 

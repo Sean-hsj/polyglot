@@ -9,6 +9,8 @@ description: Review, correct, and train writing in a target language. Use for se
 
 Improve writing by separating correctness, naturalness, register, and task success. Feedback should produce reusable patterns, not just a corrected paragraph.
 
+Use `../polyglot-router/references/feedback-protocol.md` for corrections and pattern IDs. Use `../polyglot-router/references/session-protocol.md` when the writing task is part of a session.
+
 ## Workflow
 
 1. Identify task type and expected level.
@@ -16,6 +18,17 @@ Improve writing by separating correctness, naturalness, register, and task succe
 3. Explain the highest-leverage errors by category.
 4. Extract reusable patterns and vocabulary.
 5. Ask for a short revision or targeted retry.
+
+## Output Shape
+
+Return:
+
+- corrected version
+- highest-leverage errors
+- reusable patterns
+- SRS-worthy phrases
+- one short revision task
+- structured error candidates for `polyglot-memory`
 
 ## Feedback Levels
 

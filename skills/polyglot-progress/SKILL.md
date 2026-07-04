@@ -9,6 +9,8 @@ description: Analyze language learning progress, weak areas, review load, study 
 
 Turn logs into decisions. The learner should leave knowing whether the plan is working and exactly what to practice next.
 
+Start with `../polyglot-router/scripts/learning_store.py progress`; inspect raw `read` output only when the progress summary is insufficient.
+
 ## Workflow
 
 1. Load profile, sessions, SRS, assessments, and notes index.

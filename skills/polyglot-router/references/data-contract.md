@@ -15,6 +15,7 @@ Default resolution:
 - `srs.json`: review items and scheduling fields.
 - `assessments.json`: placement tests, mock tests, checkpoint results.
 - `notes-index.json`: note paths and linked learning objects.
+- `.backups/`: timestamped pre-record snapshots created automatically before mutations.
 
 ## Profile Shape
 
@@ -53,6 +54,7 @@ Default resolution:
 ```json
 {
   "session": {
+    "session_id": "session-001",
     "language": "Japanese",
     "date": "2026-07-04",
     "duration_minutes": 20,
@@ -98,3 +100,26 @@ Default resolution:
 - Level changes require assessment evidence.
 - Weak patterns are keyed by stable `pattern_id`.
 - Notes store paths and tags, not full note bodies.
+- Invalid payloads fail before any file is written.
+- Every successful `record` creates a pre-record backup.
+- `session.session_id` may be omitted; the store assigns the next `session-NNN`.
+- `review_results[].id` must refer to an existing SRS item or a `new_items[].id` in the same payload.
+
+## Store Commands
+
+```bash
+python3 skills/polyglot-router/scripts/learning_store.py init \
+  --native-language English \
+  --target-language Spanish \
+  --current-level A1 \
+  --target-level B1 \
+  --deadline 2026-12-31
+```
+
+```bash
+python3 skills/polyglot-router/scripts/learning_store.py validate
+python3 skills/polyglot-router/scripts/learning_store.py read
+python3 skills/polyglot-router/scripts/learning_store.py due --date 2026-07-04 --language Spanish
+python3 skills/polyglot-router/scripts/learning_store.py progress
+python3 skills/polyglot-router/scripts/learning_store.py record < payload.json
+```

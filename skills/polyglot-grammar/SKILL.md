@@ -9,6 +9,8 @@ description: Teach and drill grammar patterns in any target language. Use for re
 
 Turn a grammar gap into a small mental model and immediate production practice. Grammar teaching must end in use, not explanation alone.
 
+Before correcting learner output, follow `../polyglot-router/references/feedback-protocol.md`. For full sessions, follow `../polyglot-router/references/session-protocol.md`.
+
 ## Workflow
 
 1. Name the pattern and the communicative job it does.
@@ -16,6 +18,16 @@ Turn a grammar gap into a small mental model and immediate production practice. 
 3. Contrast it with the learner's likely wrong pattern.
 4. Run 3-7 drills: recognition, transformation, cloze, production, mixed review.
 5. Record errors with a stable `pattern_id`.
+
+## Exercise Sequence
+
+Use this order unless the router gives a narrower task:
+
+1. Recognition: choose or identify the correct form.
+2. Controlled production: fill a blank or transform a sentence.
+3. Contrast: fix a common wrong answer.
+4. Free production: write one sentence using the pattern in a useful context.
+5. Mixed retrieval: combine the pattern with one due review item when possible.
 
 ## Feedback Format
 
