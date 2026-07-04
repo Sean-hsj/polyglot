@@ -9,7 +9,7 @@ description: Review, correct, and train writing in a target language. Use for se
 
 Improve writing by separating correctness, naturalness, register, and task success. Feedback should produce reusable patterns, not just a corrected paragraph.
 
-Use `../polyglot-router/references/feedback-protocol.md` for corrections and pattern IDs. Use `../polyglot-router/references/session-protocol.md` when the writing task is part of a session.
+Use `../polyglot-router/references/feedback-protocol.md` for corrections and pattern IDs. Use `../polyglot-router/references/exercise-protocols.md` and `../polyglot-router/references/rubrics.md` for writing tasks and scoring.
 
 ## Workflow
 

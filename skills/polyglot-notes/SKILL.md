@@ -9,7 +9,7 @@ description: Organize durable language learning notes. Use for lesson summaries,
 
 Turn learning events into concise, retrievable notes. Notes should help future sessions resume quickly and help the learner review independently.
 
-When note paths are created or changed, stage `note_updates[]` for `polyglot-memory`. Store paths and tags in memory, not full note bodies.
+When note paths are created or changed, stage `note_updates[]` for `polyglot-memory`. Store paths and tags in memory, not full note bodies. Use `../polyglot-router/references/exercise-protocols.md` for note type and review prompt requirements.
 
 ## Note Types
 

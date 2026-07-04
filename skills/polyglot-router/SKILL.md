@@ -19,7 +19,7 @@ The router owns sequencing. Specialists own depth.
 4. Read the learner state with `scripts/learning_store.py read`.
 5. Decide whether the next useful step is assessment, plan generation, review, new instruction, practice, test, note organization, or progress analysis.
 
-Read `references/system-architecture.md` before changing the skill graph. Read `references/data-contract.md` before writing or interpreting persisted data. Read `references/session-protocol.md` before running a study session. Read `references/feedback-protocol.md` before correcting learner output.
+Read `references/system-architecture.md` before changing the skill graph. Read `references/data-contract.md` before writing or interpreting persisted data. Read `references/session-protocol.md` and `references/exercise-protocols.md` before running a study session. Read `references/feedback-protocol.md` and `references/rubrics.md` before correcting or scoring learner output.
 
 ## Routing Policy
 

@@ -9,7 +9,7 @@ description: Build, review, and maintain vocabulary with spaced repetition. Use 
 
 Maintain vocabulary as a durable active-recall system. Prioritize useful words, collocations, phrases, and reusable chunks over isolated translation lists.
 
-Before running a review, inspect due items through `../polyglot-router/scripts/learning_store.py due`. Use `../polyglot-router/references/feedback-protocol.md` for SRS quality scoring.
+Before running a review, inspect due items through `../polyglot-router/scripts/learning_store.py due`. Use `../polyglot-router/references/exercise-protocols.md` for the vocabulary sequence and `../polyglot-router/references/rubrics.md` for SRS quality scoring.
 
 ## Workflow
 

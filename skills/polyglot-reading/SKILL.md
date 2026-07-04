@@ -9,7 +9,7 @@ description: Curate and teach through comprehensible input. Use for reading prac
 
 Use interesting input to expand vocabulary, grammar intuition, and cultural context without drowning the learner in unknown material.
 
-Use `../polyglot-router/references/session-protocol.md` for reading sessions and `../polyglot-router/references/feedback-protocol.md` for comprehension feedback.
+Use `../polyglot-router/references/session-protocol.md` for reading sessions, `../polyglot-router/references/exercise-protocols.md` for the reading sequence, and `../polyglot-router/references/rubrics.md` for comprehension scoring.
 
 ## Workflow
 

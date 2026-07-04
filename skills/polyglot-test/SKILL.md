@@ -9,7 +9,7 @@ description: Create and grade level checks, weekly tests, mock exams, placement 
 
 Measure progress with tasks that reflect the learner's target outcome. Testing is for calibration and plan repair, not punishment.
 
-Use `../polyglot-router/references/feedback-protocol.md` for scoring and `../polyglot-router/references/payload-examples.md` when saving an assessment.
+Use `../polyglot-router/references/exercise-protocols.md` for test structure, `../polyglot-router/references/rubrics.md` for scoring, and `../polyglot-router/references/payload-examples.md` when saving an assessment.
 
 ## Test Types
 

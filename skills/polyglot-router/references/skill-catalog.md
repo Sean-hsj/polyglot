@@ -21,5 +21,7 @@ Use this catalog when changing names, prompts, or routing behavior.
 
 - `session-protocol.md`: required before running a real study session.
 - `feedback-protocol.md`: required before correcting learner output.
+- `exercise-protocols.md`: required before generating exercises.
+- `rubrics.md`: required before scoring learner output.
 - `data-contract.md`: required before writing or interpreting persisted data.
 - `payload-examples.md`: use when constructing a `polyglot-memory` record payload.

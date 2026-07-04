@@ -9,7 +9,7 @@ description: Run target-language conversation and role-play practice. Use for sp
 
 Create a safe but realistic conversation loop: prompt, answer, correction, retry, expansion. Typed conversation is acceptable; mark pronunciation or speech work separately when audio tools are unavailable.
 
-Use `../polyglot-router/references/session-protocol.md` for session flow. Use `../polyglot-router/references/feedback-protocol.md` to decide when to correct, retry, or keep fluency moving.
+Use `../polyglot-router/references/session-protocol.md` for session flow. Use `../polyglot-router/references/exercise-protocols.md`, `../polyglot-router/references/feedback-protocol.md`, and `../polyglot-router/references/rubrics.md` to decide when to correct, score, retry, or keep fluency moving.
 
 ## Workflow
 

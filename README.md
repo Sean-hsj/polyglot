@@ -47,3 +47,12 @@ The durable store validates input before mutation, creates pre-record backups, c
 ```bash
 python3 -m unittest discover -s tests -v
 ```
+
+The learning behavior is specified through shared references under `skills/polyglot-router/references/`:
+
+- `session-protocol.md`
+- `exercise-protocols.md`
+- `feedback-protocol.md`
+- `rubrics.md`
+- `data-contract.md`
+- `payload-examples.md`

@@ -9,7 +9,7 @@ description: Teach and drill grammar patterns in any target language. Use for re
 
 Turn a grammar gap into a small mental model and immediate production practice. Grammar teaching must end in use, not explanation alone.
 
-Before correcting learner output, follow `../polyglot-router/references/feedback-protocol.md`. For full sessions, follow `../polyglot-router/references/session-protocol.md`.
+Before correcting learner output, follow `../polyglot-router/references/feedback-protocol.md`. For full sessions, follow `../polyglot-router/references/session-protocol.md`, `../polyglot-router/references/exercise-protocols.md`, and `../polyglot-router/references/rubrics.md`.
 
 ## Workflow
 
